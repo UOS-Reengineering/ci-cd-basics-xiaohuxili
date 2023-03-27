@@ -7,7 +7,7 @@ on:
 jobs:
   build-and-test:
 
-    runs-on: MacOS
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v3
